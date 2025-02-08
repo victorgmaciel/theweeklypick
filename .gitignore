@@ -1,3 +1,50 @@
-.idea/vcs.xml
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
+# Poetry virtual environment
+.poetry/
+
+# Poetry configuration files
+*.lock
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Coverage reports
+*.coverage
+*.coverage.*
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# FastAPI related - optional
+# If you're using SQLAlchemy for database migrations
+migrations/
+
+# If you're using FastAPI with Docker
+docker-compose.yml
+Dockerfile
+
+# Logs
+*.log
+
+# Ignore `.env` file that contains environment variables
+.env
